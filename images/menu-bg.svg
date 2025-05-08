@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Background with a light cream color -->
+  <rect width="100%" height="100%" fill="#FFF8E1"/>
+  
+  <!-- Indian food pattern overlay -->
+  <g fill="#5D4037" fill-opacity="0.03">
+    <!-- Sweet pattern elements -->
+    <!-- Ladoo -->
+    <g transform="translate(100, 100)">
+      <circle cx="0" cy="0" r="20"/>
+    </g>
+    <g transform="translate(300, 200)">
+      <circle cx="0" cy="0" r="20"/>
+    </g>
+    <g transform="translate(500, 100)">
+      <circle cx="0" cy="0" r="20"/>
+    </g>
+    <g transform="translate(700, 200)">
+      <circle cx="0" cy="0" r="20"/>
+    </g>
+    <g transform="translate(900, 100)">
+      <circle cx="0" cy="0" r="20"/>
+    </g>
+    <g transform="translate(1100, 200)">
+      <circle cx="0" cy="0" r="20"/>
+    </g>
+    
+    <!-- Barfi/Square sweets -->
+    <g transform="translate(200, 300)">
+      <rect x="-15" y="-15" width="30" height="30" rx="2"/>
+    </g>
+    <g transform="translate(400, 400)">
+      <rect x="-15" y="-15" width="30" height="30" rx="2"/>
+    </g>
+    <g transform="translate(600, 300)">
+      <rect x="-15" y="-15" width="30" height="30" rx="2"/>
+    </g>
+    <g transform="translate(800, 400)">
+      <rect x="-15" y="-15" width="30" height="30" rx="2"/>
+    </g>
+    <g transform="translate(1000, 300)">
+      <rect x="-15" y="-15" width="30" height="30" rx="2"/>
+    </g>
+    
+    <!-- Jalebi curves -->
+    <g transform="translate(150, 500)">
+      <path d="M0,0 C10,10 20,-10 30,0 C40,10 50,-10 60,0" stroke="#5D4037" stroke-width="5" stroke-opacity="0.03" fill="none"/>
+    </g>
+    <g transform="translate(350, 600)">
+      <path d="M0,0 C10,10 20,-10 30,0 C40,10 50,-10 60,0" stroke="#5D4037" stroke-width="5" stroke-opacity="0.03" fill="none"/>
+    </g>
+    <g transform="translate(550, 500)">
+      <path d="M0,0 C10,10 20,-10 30,0 C40,10 50,-10 60,0" stroke="#5D4037" stroke-width="5" stroke-opacity="0.03" fill="none"/>
+    </g>
+    <g transform="translate(750, 600)">
+      <path d="M0,0 C10,10 20,-10 30,0 C40,10 50,-10 60,0" stroke="#5D4037" stroke-width="5" stroke-opacity="0.03" fill="none"/>
+    </g>
+    <g transform="translate(950, 500)">
+      <path d="M0,0 C10,10 20,-10 30,0 C40,10 50,-10 60,0" stroke="#5D4037" stroke-width="5" stroke-opacity="0.03" fill="none"/>
+    </g>
+    
+    <!-- Samosa triangles -->
+    <g transform="translate(100, 700)">
+      <polygon points="0,-20 17,10 -17,10"/>
+    </g>
+    <g transform="translate(300, 700)">
+      <polygon points="0,-20 17,10 -17,10"/>
+    </g>
+    <g transform="translate(500, 700)">
+      <polygon points="0,-20 17,10 -17,10"/>
+    </g>
+    <g transform="translate(700, 700)">
+      <polygon points="0,-20 17,10 -17,10"/>
+    </g>
+    <g transform="translate(900, 700)">
+      <polygon points="0,-20 17,10 -17,10"/>
+    </g>
+    <g transform="translate(1100, 700)">
+      <polygon points="0,-20 17,10 -17,10"/>
+    </g>
+  </g>
+  
+  <!-- Decorative spice illustrations -->
+  <g fill="#F9A825" fill-opacity="0.04">
+    <!-- Spice illustrations - cardamom pods -->
+    <g transform="translate(200, 150) rotate(20)">
+      <ellipse cx="0" cy="0" rx="8" ry="12"/>
+      <line x1="0" y1="-12" x2="0" y2="12" stroke="#F9A825" stroke-opacity="0.04" stroke-width="1"/>
+    </g>
+    <g transform="translate(600, 250) rotate(-30)">
+      <ellipse cx="0" cy="0" rx="8" ry="12"/>
+      <line x1="0" y1="-12" x2="0" y2="12" stroke="#F9A825" stroke-opacity="0.04" stroke-width="1"/>
+    </g>
+    <g transform="translate(1000, 150) rotate(15)">
+      <ellipse cx="0" cy="0" rx="8" ry="12"/>
+      <line x1="0" y1="-12" x2="0" y2="12" stroke="#F9A825" stroke-opacity="0.04" stroke-width="1"/>
+    </g>
+    
+    <!-- Cinnamon sticks -->
+    <g transform="translate(400, 350) rotate(45)">
+      <rect x="-20" y="-3" width="40" height="6" rx="3"/>
+    </g>
+    <g transform="translate(800, 450) rotate(-60)">
+      <rect x="-20" y="-3" width="40" height="6" rx="3"/>
+    </g>
+    <g transform="translate(250, 550) rotate(30)">
+      <rect x="-20" y="-3" width="40" height="6" rx="3"/>
+    </g>
+    
+    <!-- Star anise -->
+    <g transform="translate(650, 650)">
+      <path d="M0,-15 L4,-5 L14,-5 L6,2 L9,12 L0,6 L-9,12 L-6,2 L-14,-5 L-4,-5 Z"/>
+    </g>
+    <g transform="translate(950, 350)">
+      <path d="M0,-15 L4,-5 L14,-5 L6,2 L9,12 L0,6 L-9,12 L-6,2 L-14,-5 L-4,-5 Z"/>
+    </g>
+  </g>
+  
+  <!-- Subtle border pattern -->
+  <g stroke="#5D4037" stroke-width="1" stroke-opacity="0.05" fill="none">
+    <rect x="20" y="20" width="1160" height="760" rx="8"/>
+    <rect x="40" y="40" width="1120" height="720" rx="8"/>
+  </g>
+</svg>

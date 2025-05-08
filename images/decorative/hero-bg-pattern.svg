@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <pattern id="smallDots" patternUnits="userSpaceOnUse" width="20" height="20">
+      <circle cx="10" cy="10" r="1.5" fill="#FFB746" opacity="0.3" />
+    </pattern>
+    
+    <pattern id="mediumDots" patternUnits="userSpaceOnUse" width="60" height="60">
+      <circle cx="30" cy="30" r="2" fill="#E85A19" opacity="0.2" />
+    </pattern>
+    
+    <filter id="blurFilter" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="40" />
+    </filter>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="1920" height="1080" fill="#FFF8E1" />
+  
+  <!-- Pattern layers -->
+  <rect width="1920" height="1080" fill="url(#smallDots)" opacity="0.5" />
+  <rect width="1920" height="1080" fill="url(#mediumDots)" opacity="0.5" />
+  
+  <!-- Decorative elements -->
+  <circle cx="300" cy="200" r="400" fill="#FFB746" opacity="0.1" filter="url(#blurFilter)" />
+  <circle cx="1700" cy="900" r="300" fill="#E85A19" opacity="0.1" filter="url(#blurFilter)" />
+  <circle cx="960" cy="540" r="500" fill="#FFD56A" opacity="0.1" filter="url(#blurFilter)" />
+</svg>

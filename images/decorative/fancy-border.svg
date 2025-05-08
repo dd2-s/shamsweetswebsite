@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="50" viewBox="0 0 1000 50">
+  <defs>
+    <pattern id="sweetPattern" patternUnits="userSpaceOnUse" width="100" height="50">
+      <path d="M0,25 Q25,0 50,25 Q75,50 100,25" fill="none" stroke="#E6A100" stroke-width="2" opacity="0.4" />
+      <circle cx="50" cy="25" r="3" fill="#FF9E44" opacity="0.6" />
+      <path d="M0,25 Q25,50 50,25 Q75,0 100,25" fill="none" stroke="#FFB746" stroke-width="2" opacity="0.4" />
+    </pattern>
+  </defs>
+  
+  <rect width="1000" height="50" fill="url(#sweetPattern)" />
+  
+  <!-- Decorative elements -->
+  <g fill="#E85A19" opacity="0.7">
+    <circle cx="100" cy="25" r="5" />
+    <circle cx="300" cy="25" r="5" />
+    <circle cx="500" cy="25" r="5" />
+    <circle cx="700" cy="25" r="5" />
+    <circle cx="900" cy="25" r="5" />
+  </g>
+  
+  <g fill="#FFD56A" opacity="0.9">
+    <circle cx="200" cy="25" r="4" />
+    <circle cx="400" cy="25" r="4" />
+    <circle cx="600" cy="25" r="4" />
+    <circle cx="800" cy="25" r="4" />
+  </g>
+</svg>

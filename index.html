@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sham Sweets Delight</title>
+    <meta name="description" content="Authentic Indian Sweets and Desserts" />
+    <meta name="author" content="Sham Sweets" />
+
+    <meta property="og:title" content="Sham Sweets Delight" />
+    <meta property="og:description" content="Authentic Indian Sweets and Desserts" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/hero-bg.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merienda:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- Interactive Navigation Menu (initially hidden) -->
+    <div class="interactive-nav">
+      <div class="nav-item" data-target="home">
+        <div class="nav-icon"><i class="fas fa-home"></i></div>
+        <span>Home</span>
+      </div>
+      <div class="nav-item" data-target="about">
+        <div class="nav-icon"><i class="fas fa-book-open"></i></div>
+        <span>Our Story</span>
+      </div>
+      <div class="nav-item" data-target="menu">
+        <div class="nav-icon"><i class="fas fa-utensils"></i></div>
+        <span>Menu</span>
+      </div>
+      <div class="nav-item" data-target="gallery">
+        <div class="nav-icon"><i class="fas fa-images"></i></div>
+        <span>Gallery</span>
+      </div>
+    </div>
+
+    <!-- Floating Quick Menu Button (appears when scrolling) -->
+    <div class="menu-toggle">
+      <i class="fas fa-cookie-bite"></i>
+    </div>
+
+    <!-- Animated Logo Header (transforms when scrolling) -->
+    <header id="animated-header">
+      <div class="header-container">
+        <div class="mini-logo">
+          <img src="images/Final_Logo.svg" alt="Sham Sweets Logo" id="mini-logo-img">
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section with Centered Logo -->
+    <section id="home" class="hero">
+      <div class="hero-background"></div>
+      <div class="hero-content">
+        <div class="hero-logo-container">
+          <div class="hero-logo">
+            <img src="images/Final_Logo.svg" alt="Sham Sweets Logo" id="hero-logo-img">
+          </div>
+        </div>
+        <h1>Welcome to Sham Sweets</h1>
+        <p>Experience the authentic taste of traditional Indian sweets</p>
+        <div class="hero-actions">
+          <a href="#menu" class="cta-button">Explore Menu</a>
+          <div class="scroll-indicator">
+            <span>Scroll to discover</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <div class="section-divider"><i class="fas fa-utensils"></i></div>
+      <div class="container">
+        <h2>Our Signature Items</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/milk cake.png" alt="Milk Cake">
+            <div class="gallery-content">
+              <h3>Milk Cake</h3>
+              <p>A classic Indian sweet made with condensed milk, known for its rich and creamy texture.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/gokul.png" alt="Gokul ki Rabri">
+            <div class="gallery-content">
+              <h3>Gokul ki Rabri</h3>
+              <p>A traditional dessert made from sweetened condensed milk, served chilled.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/Dodha-Burfi.png" alt="Premium Dhoda">
+            <div class="gallery-content">
+              <h3>Premium Dhoda</h3>
+              <p>A dense, sweet barfi made with milk and sugar, a specialty of our shop.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/samosa.png" alt="Samosas">
+            <div class="gallery-content">
+              <h3>Samosas</h3>
+              <p>Famous for their crispy texture and flavorful filling, a perfect savory snack.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/dhokla.png" alt="Dhokla">
+            <div class="gallery-content">
+              <h3>Dhokla</h3>
+              <p>A savory steamed cake from Gujarat, light and fluffy in texture.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/Namkeen.png" alt="Spicy Namkeens">
+            <div class="gallery-content">
+              <h3>Spicy Namkeens</h3>
+              <p>Varieties like Bhujia, Chana Jor, and Khoka Bhujia, perfect for snacking.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/paneer.png" alt="Paneer Sandwich">
+            <div class="gallery-content">
+              <h3>Paneer Sandwich</h3>
+              <p>A unique snack combining fresh paneer and bread, a fusion delight.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/Bakery.png" alt="Bakery Items">
+            <div class="gallery-content">
+              <h3>Bakery Items</h3>
+              <p>Freshly baked Cakes, Biscuits, and Cookies made with premium ingredients.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="section-divider"><i class="fas fa-book-open"></i></div>
+      <div class="about-hero">
+        <div class="container">
+          <h2>Our Story</h2>
+          <p class="subtitle">A Legacy of Sweet Excellence Since 1951</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-main">
+            
+            <div class="history">
+              <h3>Sham's Legacy</h3>
+              <p>Established in 1951 by Late Shri Sham Lal Bajaj, Sham Sweets has been a cornerstone of authentic Indian sweets and snacks in Gurgaon. The legacy was carried forward by Mr. Darshan Kumar Bajaj and is currently managed by Mr. Saheb Bajaj, maintaining the same commitment to quality and tradition.</p>
+            </div>
+          </div>
+
+          <div class="about-features">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <h3>What Makes Us Special</h3>
+              <p>Sham Sweets stands out for its commitment to quality and tradition in Indian sweets. Here are our unique selling points:</p>
+              <ul class="feature-list">
+                <li><strong>Authentic Recipes</strong> – We use traditional methods to prepare sweets, ensuring rich flavors and textures.</li>
+                <li><strong>Pure Ghee Sweets</strong> – Our sweets are made with pure desi ghee, enhancing taste and quality.</li>
+                <li><strong>Wide Variety</strong> – From Dodha Burfi to Bengali sweets, we offer a diverse range of mithai.</li>
+                <li><strong>Festive Specialties</strong> – We provide beautifully curated gift packs for celebrations.</li>
+                <li><strong>Legacy & Trust</strong> – Established in 1951, we have built a reputation for excellence over decades.</li>
+              </ul>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-utensils"></i>
+              </div>
+              <h3>Our Offerings</h3>
+              <p>We specialize in a diverse range of traditional Indian sweets, snacks, and namkeen. Our menu includes:</p>
+              <ul class="feature-list">
+                <li>Traditional Indian Sweets & Snacks</li>
+                <li>Ready Snacks & Quick Bites</li>
+                <li>Chatori Chaat</li>
+                <li>Multi-cuisine options: North Indian, Chinese, South Indian, and Continental</li>
+              </ul>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <h3>Visit Us</h3>
+              <p>We operate daily from 8:30 AM to 10:30 PM at multiple locations:</p>
+              <ul style="list-style:none; padding:0; margin:0;">
+                <li>
+                  <a href="https://maps.app.goo.gl/ErHkZE2PQGHRd1z46" target="_blank" aria-label="Google Maps">
+                    <img src="images/maps.png" alt="Google Maps" class="footer-maps-icon">
+                  </a>
+                  <a href="https://maps.app.goo.gl/ErHkZE2PQGHRd1z46" target="_blank">Sector – 8, Shivaji Nagar: Shop No. 423, Near Balaji Mandir, Gurgaon</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="feature-card quality-card">
+              <div class="feature-icon">
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>Quality is our Tradition</h3>
+              <p>For generations, we have upheld the highest standards in every product we create. Quality isn't just a goal—it's our legacy, woven into everything we do. With a commitment to craftsmanship, innovation, and integrity, we continue to deliver excellence that stands the test of time. Experience the tradition of quality with every choice you make.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+      <div class="section-divider"><i class="fas fa-cookie"></i></div>
+      <div class="container">
+        <h2>Our Menu</h2>
+        <div class="menu-categories">
+          <button class="category-btn active" data-category="all">All</button>
+          <button class="category-btn" data-category="sweets">Sweets</button>
+          <button class="category-btn" data-category="snacks">Snacks</button>
+          <button class="category-btn" data-category="special">Special Items</button>
+        </div>
+        <div class="menu-grid">
+          <!-- Quick Bites Section -->
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Samosa Chutney (Plt)</h3><div class="menu-item-image"><img src="images/samosa.png" alt="Samosa Chutney"></div><div class="menu-item-content"><p>₹32</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Samosa Choley (Plt)</h3><div class="menu-item-image"><img src="images/samosa-choley.png" alt="Samosa Choley"></div><div class="menu-item-content"><p>₹60</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Dal Kachori Chutney (Plt)</h3><div class="menu-item-image"><img src="images/dal-kachori.png" alt="Dal Kachori Chutney"></div><div class="menu-item-content"><p>₹36</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Dal Kachori Sabzi (Plt)</h3><div class="menu-item-image"><img src="images/dal-kachori-sabzi.jpg" alt="Dal Kachori Sabzi"></div><div class="menu-item-content"><p>₹60</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Onion Kachori Chutney (Plt)</h3><div class="menu-item-image"><img src="images/onion kachori.png" alt="Onion Kachori Chutney"></div><div class="menu-item-content"><p>₹44</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Onion Kachori Chutney/Sabzi (Plt)</h3><div class="menu-item-image"><img src="images/onion kachori sabzi.webp" alt="Onion Kachori Chutney/Sabzi"></div><div class="menu-item-content"><p>₹84</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Bread Pakora (Plt)</h3><div class="menu-item-image"><img src="images/BREAD-PAKORA.webp" alt="Bread Pakora"></div><div class="menu-item-content"><p>₹44</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Bread Pakora with Choley/Sabji (Plt)</h3><div class="menu-item-image"><img src="images/bread pakora.png" alt="Bread Pakora with Choley/Sabji"></div><div class="menu-item-content"><p>₹68</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Paneer Pakora Chutney (Plt)</h3><div class="menu-item-image"><img src="images/Paneer-Pakoda.png" alt="Paneer Pakora Chutney"></div><div class="menu-item-content"><p>₹68</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Paneer Pakora Choley (Plt)</h3><div class="menu-item-image"><img src="images/paneer pakoda.webp" alt="Paneer Pakora Choley"></div><div class="menu-item-content"><p>₹84</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Paneer Kulcha (Pc)</h3><div class="menu-item-image"><img src="images/paneer kulcha.png" alt="Paneer Kulcha"></div><div class="menu-item-content"><p>₹45</p></div></div>
+          <div class="menu-item" data-category="quick-bites"><h3 class="menu-item-title">Dhokla Plain (Per Kg)</h3><div class="menu-item-image"><img src="images/plain dhokla.webp" alt="Dhokla Plain"></div><div class="menu-item-content"><p>₹240</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-info">
+            <div class="footer-logo">
+              <img src="images/Final_Logo.svg" alt="Sham Sweets Logo">
+            </div>
+            <p>Experience authentic Indian sweets and savory delights since 1951.</p>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-phone-alt"></i> +91 9818182426</p>
+            <p><i class="fas fa-envelope"></i> info@shamsweetsgurgaon.com</p>
+          </div>
+          <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Sham Sweets. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
